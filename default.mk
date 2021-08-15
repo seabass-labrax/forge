@@ -20,6 +20,7 @@ ELS  += $(PKG)-bitbucket.el
 ELS  += $(PKG)-semi.el
 ELS  += $(PKG)-commands.el
 ELS  += $(PKG)-list.el
+ELS  += forge-pkg.el
 ELCS  = $(ELS:.el=.elc)
 
 DEPS  = closql
